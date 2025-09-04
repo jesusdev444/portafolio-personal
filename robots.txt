@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://jesusdavid.cyou/sitemap.xml
+
+# Archivos que no queremos que indexen (opcional)
+Disallow: /.vscode/
+Disallow: /node_modules/
+Disallow: *.js.map
+Disallow: /temp/
+Disallow: /backup/
+
+# Permitir archivos CSS y JS para mejor renderizado
+Allow: *.css
+Allow: *.js
